@@ -1,0 +1,43 @@
+.rdNav{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    .rdContainer{
+        width: 1400px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        position: relative;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+    .rdNavLogo{
+        height: 45px;
+        width: 45px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .rdNavList{
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+
+        .rdNavItem{
+            display: flex;
+            align-items: center;
+            gap: .25em;
+            color: #cdcecf;
+            font-size: 1rem;
+
+            svg{
+                height: 17.5px;
+                width: 17.5px;
+            }
+        }
+    }
+}

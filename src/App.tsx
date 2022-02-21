@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import { Hero } from './Components/Hero';
+import { Navbar } from './Components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <Hero/>
+      <Navbar />
+      <Hero />
     </div>
   )
 }

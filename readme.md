@@ -1,2 +1,2 @@
-#Vite project
+# Vite project
 Transaction website just for fun :)
