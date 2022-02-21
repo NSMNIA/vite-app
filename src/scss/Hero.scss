@@ -15,7 +15,13 @@
     .rd-header--flex{
         display: flex;
         align-items: center;
-        gap: 1rem;
+        gap: 2rem;
+
+        p{
+            color: #cdcecf;
+            line-height: 1.5;
+            width: 300px;
+        }
     }
 
     h1{
